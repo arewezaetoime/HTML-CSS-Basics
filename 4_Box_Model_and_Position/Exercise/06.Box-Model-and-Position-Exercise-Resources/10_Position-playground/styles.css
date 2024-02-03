@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
 }
@@ -77,4 +77,27 @@ img {
       oklab(48% 0.43 0.04) 33% 33%, oklch(90% .3 200) 131% 131%
     )
   ;
-}
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40%;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      width: 100%;
+    }
+  }
